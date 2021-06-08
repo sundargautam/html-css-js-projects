@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  width: 24%;
+  height: 250px;
+  color: white;
+  display: flex;
+  background-color: #01befe;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.angry{
+    background-color: red;
+}
