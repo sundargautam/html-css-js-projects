@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+.main {
+  padding: 0 14rem;
+  transition: transform 2s, padding 2s, top 3s;
+  margin-top: -141px;
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  z-index: -1;
+}
+.toggle-menu {
+  background-color: red;
+  position: absolute;
+  height: 120px;
+  width: 124px;
+  border-radius: 64px;
+  text-align: center;
+  left: -47px;
+  top: -26px;
+  position: relative;
+}
+.toggle-menu__icon {
+  position: absolute;
+  top: 52px;
+  color: white;
+}
+.article__image {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.menu-active {
+  padding: 0 14rem;
+  left: 62px;
+  top: -50px;
+  transform: rotate(-21deg);
+  padding-top: 253px;
+}
+
+.side-menu {
+  position: absolute;
+  height: 40vh;
+  width: 149px;
+  top: 422px;
+  line-height: 71px;
+  transform: rotate(0deg);
+  display: none;
+  color: white;
+  transition: display 4s;
+}
+.side-menu > li {
+  list-style-type: none;
+}
+
+.side-menu__active {
+  display: block;
+}

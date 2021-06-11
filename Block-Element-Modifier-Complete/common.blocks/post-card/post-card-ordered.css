@@ -1,0 +1,5 @@
+@import url("./post-card.css");
+@import url("./_theme/post-card_theme_blue.css");
+@import url("./_theme/post-card_theme_green.css");
+@import url("./__button/post-card__button.css");
+@import url("./_shape/post-card_shape_circle.css");
