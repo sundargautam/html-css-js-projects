@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+.fb-card {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+  border: 1px solid black;
+}
+.fb-card__top {
+  height: 50px;
+  display: flex;
+}
+.fb-card__profile {
+  width: 10%;
+  height: 100%;
+  margin-left: 2px;
+}
+.fb-card__user-info {
+  min-width: 20%;
+}
+.fb-card__user-photos {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.fb-card__userpost {
+}
+.fb-card__user-uploads {
+  border: 2px solid gray;
+}
+.fb-card__icons {
+  border-top: 2px solid black;
+  display: flex;
+}
+
+.fb-card__icons span {
+  flex: 2;
+  text-align: center;
+}
