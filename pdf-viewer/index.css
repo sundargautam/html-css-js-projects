@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-container {
+  background-color: rgba(255, 255, 255, 0.24);
+  padding: 0 10px;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+.nav {
+  background-color: black;
+  height: 50px;
+  display: flex;
+}
+.common-flex {
+  align-items: center;
+  justify-content: center;
+}
+.nav__left {
+  width: 50%;
+  display: flex;
+}
+.nav__bars {
+  width: 10%;
+  text-align: right;
+}
+.nav__book-title {
+  width: 90%;
+  padding-left: 1em;
+}
+
+.nav__center {
+  width: 25%;
+  display: flex;
+}
+.nav__page-count {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__zoomer {
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+.nav__fit-to-page {
+  flex: 0.5;
+  display: flex;
+  display: flex;
+  justify-content: flex-start;
+}
+.nav__rotate {
+  flex: 0.5;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav__right {
+  width: 25%;
+  display: flex;
+}
+
+.nav__zoomer {
+  display: flex;
+}
+.divider {
+  margin-left: 8px;
+}
+.divider:first-child {
+  margin-left: 10px;
+}
+
+.divider:not(:first-child) {
+  margin-right: 8px;
+}
+
+.sidebar {
+  width: 18%;
+  height: 100vh;
+  background-color: blanchedalmond;
+  top: 50px;
+  left: 11px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  flex-direction: column;
+  row-gap: 0.2rem;
+  border: 1px solid grey;
+  padding: 50px 0;
+  display: none;
+  overflow-y: scroll;
+}
+.sidebar__page {
+  width: 100%;
+  height: 250px;
+  background-color: azure;
+  border: 2px solid black;
+  margin-top: 1px;
+}
+.main-content {
+  display: flex;
+}
+.sidebar_show {
+  display: block;
+}
+.content {
+  display: none;
+  width: 72%;
+  margin-top: 50px;
+}
+.content_show {
+  display: block;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>PDF Viewer clone</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-container">
+        <div class="nav">
+          <div class="nav__left common-flex">
+            <div class="nav__bars"><i class="fas fa-bars"></i></div>
+            <div class="nav__book-title">FrontEnd Expert by Baba</div>
+          </div>
+          <div class="nav__center common-flex">
+            <div class="nav__page-count">
+              <input style="width: 30px;" class="nav__page-start" placeholder="89">
+              <span class="nav__page-outof">/</span>
+              <span class="nav__page-end">105</span>
+            </div>
+            <span class="divider">|</span>
+            <div class="nav__zoomer">
+              <div class="nav__zoomout">-</div>
+              <div class="nav__zoom-percent">%</div>
+              <div class="nav__zoomin">+</div>
+            </div>
+            <span class="divider">|</span>
+            <div class="nav__fit-to-page">Fit
+            </div>
+            <span class="divider">|</span>
+            <div class="nav__rotate">Rotate</div>
+          </div>
+          <div class="nav__right common-flex">
+            <div class="nav__print">P</div>
+            <div class="nav__download">D</div>
+            <div class="nav__bars">:</div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="main-content">
+          
+      <div class="sidebar">
+        <div class="sidebar__page">
+            <p>Page1</p>
+        </div>
+        <div class="sidebar__page">
+          <p>Page1</p>
+      </div>
+      <div class="sidebar__page">
+          <p>Page1</p>
+      </div>
+        <div class="sidebar__page">
+            <p>Page1</p>
+        </div>
+    </div>
+    <div class="content">
+    <p>One of the duties of front-end developers is to provide the best experience to users regardless of what
+        device or browser they are using.
+        This was not always the prevailing attitude, and the companies that made browsers were partly to
+        blame. In the early days of the web, browser makers were fighting a war. Each would invent new
+        nonstandard features in an attempt to out-do the others. In response, web developers came up with
+        schemes for detecting which browser was requesting a document and what screen size was being used.
+        Based on this information, a different version of the document was served out.
+        Sadly, this meant that front-end development became weighed down with creating multiple copies
+        of every page on a site, each copy built with the markup and styles that would work for a specific
+        version of a browser running at a particular screen size. Maintaining all of these copies was both time
+        consuming and frustrating.</p>
+    </div>
+      </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>

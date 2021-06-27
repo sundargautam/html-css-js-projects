@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.circle {
+  position: absolute;
+  border: solid 1px #ccc;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  animation: pulse 2s linear 1s infinite;
+}
+.dot {
+  position: absolute;
+  border: solid 1px #ccc;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  left: 30px;
+  top: 28px;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 8px #ea4c89, inset 0 0 8px #ea4c89;
+  }
+  50% {
+    box-shadow: 0 0 16px #ea4c89, inset 0 0 14px #ea4c89;
+  }
+  100% {
+    box-shadow: 0 0 8px #ea4c89, inset 0 0 8px #ea4c89;
+  }
+}
