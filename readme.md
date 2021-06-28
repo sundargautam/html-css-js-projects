@@ -1,3 +1,6 @@
+## This repository contains various projects for practice purpose.Go with each examples and try to recreate it for practice
+
+
 ## Most used Javscript tricks ###
 
 ```
